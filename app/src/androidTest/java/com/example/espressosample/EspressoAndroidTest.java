@@ -28,7 +28,7 @@ public class EspressoAndroidTest {
 
     @Test
     public void correctWordMatch() {
-        onView(withText("Hello World!")).check(matches(isDisplayed()));
+        onView(withText("Hello World!")).check(matches(isDisplayed())); 
     }
 
     @Test
